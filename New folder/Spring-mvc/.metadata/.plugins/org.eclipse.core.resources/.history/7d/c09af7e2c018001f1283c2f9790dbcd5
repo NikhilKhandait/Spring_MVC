@@ -1,0 +1,8 @@
+package com.rays.form;
+
+public class LoginFrom {
+	
+	private String login;
+	private String password;
+
+}

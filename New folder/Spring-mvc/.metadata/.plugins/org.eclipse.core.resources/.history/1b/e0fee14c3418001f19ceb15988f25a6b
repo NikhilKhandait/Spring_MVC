@@ -1,0 +1,54 @@
+package com.rays.dao;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.rays.dto.UserDTO;
+
+@Repository
+public class UserDAO {
+
+	@Autowired
+	SessionFactory sessionFactory;
+
+	public long add(UserDTO dto) {
+
+		long pk = (long) sessionFactory.getCurrentSession().save(dto);
+		return pk;
+	}
+
+	public void update(UserDTO dto) {
+
+		sessionFactory.getCurrentSession().saveOrUpdate(dto);
+	}
+	
+	public void delete(UserDTO dto) {
+		
+		sessionFactory.getCurrentSession().delete(dto);	
+	}
+	
+	public UserDTO authenticate(String login,String password) {
+		
+		Query q = sessionFactory.getCurrentSession().createQuery("from st_user where login =? and password = ?");
+		
+		q.setString(0, login);
+		q.setString(1, password);
+		
+		List list = q.list();
+		UserDTO dto = null;
+		if (list.size() > 0) {
+			 dto = (UserDTO) list.get(0);
+		}
+		return dto;	
+	}
+	public void findByPk(long pk) {
+		
+		sessionFactory.getCurrentSession().get(UserDTO.class, pk);
+		
+		return pk;
+	}
+}

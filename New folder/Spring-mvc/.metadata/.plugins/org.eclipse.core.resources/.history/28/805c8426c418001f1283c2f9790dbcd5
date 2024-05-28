@@ -1,0 +1,16 @@
+package com.rays.form;
+
+public class UserForm {
+	
+	protected long id = 0;
+	private long ids[];
+	private String firstName;
+	private String lastName;
+	private String login;
+	private String password;
+	private String dob;
+	private String address;
+	
+	
+
+}

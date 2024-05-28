@@ -1,0 +1,23 @@
+package util;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+public class DataUtility {
+
+	static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
+	public static DataUtility stringToDate(String value) {
+		try {
+			return sdf.parse(value);
+		} catch (ParseException e) {
+			return null;
+		}
+	}
+
+	public static String dateToString(Date value) {
+
+		return sdf.format(value);
+
+	}
+}

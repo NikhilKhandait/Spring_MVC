@@ -1,0 +1,22 @@
+
+May 24, 2024 12:17:49.79 NEW SESSION
+May 24, 2024 12:17:49.79 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 24, 2024 12:20:07.29 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 24, 2024 12:34:08.65 [16172:17476:0524/123408.655:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 24, 2024 13:04:11.81 [16172:17476:0524/130411.329:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 24, 2024 13:04:16.84 [16172:17476:0524/130416.839:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 24, 2024 13:35:42.49 [16172:17476:0524/133542.495:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 24, 2024 13:37:00.83 [16172:17476:0524/133700.836:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -100
+
+May 24, 2024 23:27:31.73 NEW SESSION
+May 24, 2024 23:27:31.74 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 25, 2024 24:01:21.70 [25728:28748:0525/000121.702:ERROR:device_event_log_impl.cc(195)] [00:01:21.701] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+May 25, 2024 18:03:39.23 NEW SESSION
+May 25, 2024 18:03:39.23 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 25, 2024 18:18:21.33 [19440:9980:0525/181821.329:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 25, 2024 18:18:28.77 [19440:9980:0525/181828.773:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 25, 2024 18:32:46.45 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 27, 2024 13:58:38.23 NEW SESSION
+May 27, 2024 13:58:38.23 Created TensorFlow Lite XNNPACK delegate for CPU.

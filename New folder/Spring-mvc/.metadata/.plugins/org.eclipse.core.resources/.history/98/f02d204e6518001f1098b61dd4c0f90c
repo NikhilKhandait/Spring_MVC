@@ -1,0 +1,11 @@
+package com.rays.service;
+
+import org.springframework.stereotype.Service;
+
+import com.rays.dao.UserDAO;
+
+@Service
+public class UserService {
+
+	UserDAO dao = null;
+}

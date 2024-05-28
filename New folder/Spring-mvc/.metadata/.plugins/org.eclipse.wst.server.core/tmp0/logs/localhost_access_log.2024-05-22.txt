@@ -1,0 +1,7 @@
+127.0.0.1 - - [22/May/2024:14:59:41 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/May/2024:14:59:42 +0530] "GET /spring-mvc/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [22/May/2024:14:59:42 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [22/May/2024:15:00:00 +0530] "GET /spring-mvc/UserRegistraction HTTP/1.1" 500 51124
+0:0:0:0:0:0:0:1 - - [22/May/2024:15:00:09 +0530] "GET /spring-mvc/UserRegistractionCtl HTTP/1.1" 500 51124
+0:0:0:0:0:0:0:1 - - [22/May/2024:15:00:58 +0530] "GET /spring-mvc/Register HTTP/1.1" 500 51124
+0:0:0:0:0:0:0:1 - - [22/May/2024:16:52:07 +0530] "GET /spring-mvc/register HTTP/1.1" 500 10167
